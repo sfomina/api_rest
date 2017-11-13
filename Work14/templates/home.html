@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Are you ANGERYYY</title>
+	</head>
+	
+	<body>
+		<h1> Welcome to Are you ANGERYYY!</h1>
+		<h2>Type your thoughts below:</h2>
+		<i>(Press submit and we'll tell you if you are an angry child)</i>
+		<form  method = "POST" action = "/angry">
+			<textarea rows = "15" cols = "90" name = "body" >{{text}}</textarea>
+			<br>
+			<button type = "submit">Submit</button>
+		</form>
+		{% block angry %}
+		{% endblock %}
+	<body>
+<html>
